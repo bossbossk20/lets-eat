@@ -7,21 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F225909515AE781380914AE /* Pods_eat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA52094C4BDD84C1C1C227AC /* Pods_eat.framework */; };
 		C1EEB71A1E1A6DC000628837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EEB7191E1A6DC000628837 /* AppDelegate.swift */; };
 		C1EEB71C1E1A6DC000628837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EEB71B1E1A6DC000628837 /* ViewController.swift */; };
 		C1EEB71F1E1A6DC000628837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1EEB71D1E1A6DC000628837 /* Main.storyboard */; };
 		C1EEB7211E1A6DC000628837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1EEB7201E1A6DC000628837 /* Assets.xcassets */; };
 		C1EEB7241E1A6DC000628837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1EEB7221E1A6DC000628837 /* LaunchScreen.storyboard */; };
 		C1EEB72C1E1A764100628837 /* WebViewContent.html in Resources */ = {isa = PBXBuildFile; fileRef = C1EEB72B1E1A764100628837 /* WebViewContent.html */; };
-		C1EEB72E1E1A773F00628837 /* VideoBackground.gif in Resources */ = {isa = PBXBuildFile; fileRef = C1EEB72D1E1A773F00628837 /* VideoBackground.gif */; };
-		C1EEB7301E1A819900628837 /* VideoBackgroundPug.gif in Resources */ = {isa = PBXBuildFile; fileRef = C1EEB72F1E1A819900628837 /* VideoBackgroundPug.gif */; };
-		C1EEB7321E1A890100628837 /* glad.gif in Resources */ = {isa = PBXBuildFile; fileRef = C1EEB7311E1A890100628837 /* glad.gif */; };
-		C1EEB7341E1A8A7600628837 /* fun.gif in Resources */ = {isa = PBXBuildFile; fileRef = C1EEB7331E1A8A7600628837 /* fun.gif */; };
-		C1EEB7361E1A8E2100628837 /* pizza.gif in Resources */ = {isa = PBXBuildFile; fileRef = C1EEB7351E1A8E2100628837 /* pizza.gif */; };
 		C1EEB7381E1A8F0D00628837 /* dinner.gif in Resources */ = {isa = PBXBuildFile; fileRef = C1EEB7371E1A8F0D00628837 /* dinner.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DDA3D62AE116FB6E3AD694F /* Pods-eat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat.release.xcconfig"; path = "Pods/Target Support Files/Pods-eat/Pods-eat.release.xcconfig"; sourceTree = "<group>"; };
+		75F7B3879A7E15C959BF4487 /* Pods-eat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eat/Pods-eat.debug.xcconfig"; sourceTree = "<group>"; };
+		C13B29D61E1D55EA00B8FCE5 /* eat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = eat.entitlements; sourceTree = "<group>"; };
 		C1EEB7161E1A6DC000628837 /* eat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1EEB7191E1A6DC000628837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1EEB71B1E1A6DC000628837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,12 +29,8 @@
 		C1EEB7231E1A6DC000628837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1EEB7251E1A6DC000628837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1EEB72B1E1A764100628837 /* WebViewContent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WebViewContent.html; sourceTree = "<group>"; };
-		C1EEB72D1E1A773F00628837 /* VideoBackground.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = VideoBackground.gif; sourceTree = "<group>"; };
-		C1EEB72F1E1A819900628837 /* VideoBackgroundPug.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = VideoBackgroundPug.gif; sourceTree = "<group>"; };
-		C1EEB7311E1A890100628837 /* glad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = glad.gif; sourceTree = "<group>"; };
-		C1EEB7331E1A8A7600628837 /* fun.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fun.gif; sourceTree = "<group>"; };
-		C1EEB7351E1A8E2100628837 /* pizza.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pizza.gif; sourceTree = "<group>"; };
 		C1EEB7371E1A8F0D00628837 /* dinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dinner.gif; sourceTree = "<group>"; };
+		FA52094C4BDD84C1C1C227AC /* Pods_eat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +38,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F225909515AE781380914AE /* Pods_eat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		167C5B5DB46517AAA0AF6B05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75F7B3879A7E15C959BF4487 /* Pods-eat.debug.xcconfig */,
+				1DDA3D62AE116FB6E3AD694F /* Pods-eat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B0C5FCE89576652984FFBA8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA52094C4BDD84C1C1C227AC /* Pods_eat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C1EEB70D1E1A6DBF00628837 = {
 			isa = PBXGroup;
 			children = (
 				C1EEB7181E1A6DC000628837 /* eat */,
 				C1EEB7171E1A6DC000628837 /* Products */,
+				167C5B5DB46517AAA0AF6B05 /* Pods */,
+				B0C5FCE89576652984FFBA8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,12 +83,8 @@
 		C1EEB7181E1A6DC000628837 /* eat */ = {
 			isa = PBXGroup;
 			children = (
+				C13B29D61E1D55EA00B8FCE5 /* eat.entitlements */,
 				C1EEB7371E1A8F0D00628837 /* dinner.gif */,
-				C1EEB7351E1A8E2100628837 /* pizza.gif */,
-				C1EEB7331E1A8A7600628837 /* fun.gif */,
-				C1EEB7311E1A890100628837 /* glad.gif */,
-				C1EEB72F1E1A819900628837 /* VideoBackgroundPug.gif */,
-				C1EEB72D1E1A773F00628837 /* VideoBackground.gif */,
 				C1EEB7191E1A6DC000628837 /* AppDelegate.swift */,
 				C1EEB71B1E1A6DC000628837 /* ViewController.swift */,
 				C1EEB71D1E1A6DC000628837 /* Main.storyboard */,
@@ -92,9 +103,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1EEB7281E1A6DC000628837 /* Build configuration list for PBXNativeTarget "eat" */;
 			buildPhases = (
+				E94387C2D327F54AC79CCE3E /* [CP] Check Pods Manifest.lock */,
 				C1EEB7121E1A6DBF00628837 /* Sources */,
 				C1EEB7131E1A6DBF00628837 /* Frameworks */,
 				C1EEB7141E1A6DBF00628837 /* Resources */,
+				3BE58131C4074F9007338AF8 /* [CP] Embed Pods Frameworks */,
+				DE766030F5646282ED32D650 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -119,6 +133,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = EY268YMMS7;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -146,19 +165,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1EEB7241E1A6DC000628837 /* LaunchScreen.storyboard in Resources */,
-				C1EEB7301E1A819900628837 /* VideoBackgroundPug.gif in Resources */,
 				C1EEB7381E1A8F0D00628837 /* dinner.gif in Resources */,
 				C1EEB7211E1A6DC000628837 /* Assets.xcassets in Resources */,
 				C1EEB72C1E1A764100628837 /* WebViewContent.html in Resources */,
-				C1EEB7341E1A8A7600628837 /* fun.gif in Resources */,
-				C1EEB7361E1A8E2100628837 /* pizza.gif in Resources */,
 				C1EEB71F1E1A6DC000628837 /* Main.storyboard in Resources */,
-				C1EEB72E1E1A773F00628837 /* VideoBackground.gif in Resources */,
-				C1EEB7321E1A890100628837 /* glad.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BE58131C4074F9007338AF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eat/Pods-eat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE766030F5646282ED32D650 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eat/Pods-eat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94387C2D327F54AC79CCE3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C1EEB7121E1A6DBF00628837 /* Sources */ = {
@@ -210,6 +272,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -259,6 +322,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -285,8 +349,10 @@
 		};
 		C1EEB7291E1A6DC000628837 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F7B3879A7E15C959BF4487 /* Pods-eat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = eat/eat.entitlements;
 				DEVELOPMENT_TEAM = EY268YMMS7;
 				INFOPLIST_FILE = eat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -298,8 +364,10 @@
 		};
 		C1EEB72A1E1A6DC000628837 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DDA3D62AE116FB6E3AD694F /* Pods-eat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = eat/eat.entitlements;
 				DEVELOPMENT_TEAM = EY268YMMS7;
 				INFOPLIST_FILE = eat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

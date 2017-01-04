@@ -7,8 +7,8 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
+import FBSDKLoginKit
+class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     
    
     @IBOutlet weak var vedioBackgroundWebView: UIWebView!
@@ -16,7 +16,26 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setVideoBackground()
+        let loginButton = FBSDKLoginButton()
+        view.addSubview(loginButton)
+        loginButton.frame = CGRect(x : 16, y: view.frame.height - 60, width: view.frame.width - 32, height: 50)
+        
+        loginButton.delegate = self
     }
+    
+    func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
+        print("Did log out on Facebook")
+    }
+    
+    func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
+        if  error != nil {
+            print(error)
+            return
+        }
+        
+        print("Successful login with Facebook")
+    }
+    
     
     private func setVideoBackground() {
         let htmlName = "WebViewContent"
