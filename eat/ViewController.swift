@@ -21,6 +21,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         loginButton.frame = CGRect(x : 16, y: view.frame.height - 60, width: view.frame.width - 32, height: 50)
         
         loginButton.delegate = self
+        loginButton.readPermissions = ["email", "public_profile"]
     }
     
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
@@ -33,9 +34,18 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
             return
         }
         
-        print("Successful login with Facebook")
+        FBSDKGraphRequest(graphPath: "/me", parameters: ["fields": "id, name, email"]).start { (connection, result, err) in
+            if err != nil {
+                print("Failed to start graph request", err)
+            }
+            
+            print(result!)
+            
+            
+            
+        }
     }
-    
+   
     
     private func setVideoBackground() {
         let htmlName = "WebViewContent"

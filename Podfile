@@ -7,6 +7,7 @@ target 'eat' do
   pod 'FBSDKCoreKit'
   pod 'FBSDKShareKit'
   pod 'FBSDKLoginKit'
+  pod 'M13Checkbox', '~> 3.1'
   # Pods for eat
 
 end
